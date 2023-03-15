@@ -2,7 +2,7 @@
 
 xmlseclibs is a library written in PHP for working with XML Encryption and Signatures.
 
-The author of xmlseclibs is Rob Richards.
+The author of xmlseclibs is Punnawut Prommalee.
 
 # Branches
 Master is currently the only actively maintained branch.
@@ -21,7 +21,7 @@ xmlseclibs requires PHP version 5.4 or greater. **5.6.24+ recommended for securi
 Install with [`composer.phar`](http://getcomposer.org).
 
 ```sh
-php composer.phar require "robrichards/xmlseclibs"
+php composer.phar require "punnawut/xmlseclibs"
 ```
 
 
@@ -79,7 +79,7 @@ $doc->save('./path/to/signed.xml');
 
 ## How to Contribute
 
-* [Open Issues](https://github.com/robrichards/xmlseclibs/issues)
-* [Open Pull Requests](https://github.com/robrichards/xmlseclibs/pulls)
+* [Open Issues](https://github.com/punnawut/xmlseclibs/issues)
+* [Open Pull Requests](https://github.com/punnawut/xmlseclibs/pulls)
 
 Mailing List: https://groups.google.com/forum/#!forum/xmlseclibs
