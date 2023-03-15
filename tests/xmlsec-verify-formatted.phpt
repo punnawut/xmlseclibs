@@ -3,8 +3,8 @@ Verify with formatted X509Certificate
 --FILE--
 <?php
 require(dirname(__FILE__) . '/../xmlseclibs.php');
-use RobRichards\XMLSecLibs\XMLSecurityDSig;
-use RobRichards\XMLSecLibs\XMLSecEnc;
+use Punnawut\XMLSecLibs\XMLSecurityDSig;
+use Punnawut\XMLSecLibs\XMLSecEnc;
 
 $doc = new DOMDocument();
 $arTests = array('SIGN_TEST_FORMATTED'=>'sign-formatted-test.xml');

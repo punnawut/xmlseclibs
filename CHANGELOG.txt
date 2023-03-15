@@ -85,7 +85,7 @@ Improvements:
 
 31, Jul 2015, 2.0.0
 Features:
-- Namespace support. Classes now in the RobRichards\XMLSecLibs\ namespace.
+- Namespace support. Classes now in the Punnawut\XMLSecLibs\ namespace.
 
 Improvements:
 - Dropped support for PHP 5.2

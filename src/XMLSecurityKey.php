@@ -1,5 +1,5 @@
 <?php
-namespace RobRichards\XMLSecLibs;
+namespace Punnawut\XMLSecLibs;
 
 use DOMElement;
 use Exception;

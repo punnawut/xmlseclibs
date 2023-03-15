@@ -3,7 +3,7 @@ Basic Decryption
 --FILE--
 <?php
 require(dirname(__FILE__) . '/../../xmlseclibs.php');
-use RobRichards\XMLSecLibs\XMLSecEnc;
+use Punnawut\XMLSecLibs\XMLSecEnc;
 
  // Travis not honoring SKIPIF
  if (version_compare(PHP_VERSION, '7.1.0') < 0) {

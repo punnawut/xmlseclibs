@@ -3,8 +3,8 @@ Basic Encryption
 --FILE--
 <?php
 require(dirname(__FILE__) . '/../xmlseclibs.php');
-use RobRichards\XMLSecLibs\XMLSecurityKey;
-use RobRichards\XMLSecLibs\XMLSecEnc;
+use Punnawut\XMLSecLibs\XMLSecurityKey;
+use Punnawut\XMLSecLibs\XMLSecEnc;
 
 $arTests = array('AES128_GCM' => array('file'=>'aes128-gcm.xml', 'key'=>XMLSecurityKey::AES128_GCM),
 	'AES192_GCM' => array('file'=>'aes192-gcm.xml', 'key'=>XMLSecurityKey::AES192_GCM),

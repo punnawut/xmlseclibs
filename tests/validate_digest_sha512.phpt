@@ -3,8 +3,8 @@ Validate Digest SHA 512
 --FILE--
 <?php
 require(dirname(__FILE__) . '/../xmlseclibs.php');
-use RobRichards\XMLSecLibs\XMLSecurityDSig;
-use RobRichards\XMLSecLibs\XMLSecurityKey;
+use Punnawut\XMLSecLibs\XMLSecurityDSig;
+use Punnawut\XMLSecLibs\XMLSecurityKey;
 
 $doc = new DOMDocument();
 $doc->load(dirname(__FILE__) . '/basic-doc.xml');
