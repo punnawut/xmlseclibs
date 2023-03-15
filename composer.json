@@ -1,6 +1,6 @@
 {
-  "name": "robrichards/xmlseclibs",
-  "description": "A PHP library for XML Security",
+  "name": "punnawut/xmlseclibs",
+  "description": "A PHP library for XML Security fork from robrichards",
   "license": "BSD-3-Clause",
   "keywords": [
     "xml",
@@ -8,10 +8,10 @@
     "signature",
     "security"
   ],
-  "homepage": "https://github.com/robrichards/xmlseclibs",
+  "homepage": "https://github.com/punnawut/xmlseclibs.git",
   "autoload": {
     "psr-4": {
-      "RobRichards\\XMLSecLibs\\": "src"
+      "Punnawut\\XMLSecLibs\\": "src"
     }
   },
   "require": {

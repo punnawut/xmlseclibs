@@ -637,7 +637,7 @@ class XMLSecurityDSig
             $prefix_ns = empty($options['prefix_ns']) ? null : $options['prefix_ns'];
             $id_name = empty($options['id_name']) ? 'Id' : $options['id_name'];
             $overwrite_id = !isset($options['overwrite']) ? true : (bool) $options['overwrite'];
-            $force_uri = !isset($options['force_uri']) ? false : (bool) $options['force_uri'];
+            $force_uri = !isset($options['force_uri']) ? false : $options['force_uri'];
         }
 
         $attname = $id_name;
@@ -659,7 +659,7 @@ class XMLSecurityDSig
             }
             $refNode->setAttribute("URI", '#'.$uri);
         } elseif ($force_uri) {
-            $refNode->setAttribute("URI", '');
+            $refNode->setAttribute("URI", $force_uri);
         }
 
         $transNodes = $this->createNewSignNode('Transforms');
